@@ -59,6 +59,7 @@ function game(userChoice){
         case "hb":
             lose(userChoice,computerChoice)
             result_p.innerHTML="You have been mauled by a Bear. You Lose!"
+            break
         case "gh":
             lose(userChoice,computerChoice)
             result_p.innerHTML="You have been disarmed.You Lose!"
